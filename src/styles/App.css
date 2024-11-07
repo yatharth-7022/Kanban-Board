@@ -1,0 +1,53 @@
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: white;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: none;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.submenu {
+  padding: 0.5rem;
+}
+
+.submenu-content {
+  padding-left: 1rem;
+  display: none;
+  flex-direction: column;
+}
+
+.submenu:hover .submenu-content {
+  display: flex;
+}
